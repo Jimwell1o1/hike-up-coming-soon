@@ -1,0 +1,137 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@theme {
+
+  --breakpoint-3xl: 120rem;
+
+  /* Hike Up Branding */
+  --color-hu-violet: #5e2374;
+  --color-hu-light-violet: #f7edff;
+  --color-hu-red: #b8272c;
+  --color-hu-blue: #5587df;
+
+
+  --color-primary-0: #fff;
+  --color-primary-100: #f8f6f9;
+  --color-primary-200: #f4eff7;
+  --color-primary-300: #ede3f3;
+  --color-primary-400: #e5d6ef;
+  --color-primary-500: #dbc4e9;
+  --color-primary-600: #cfb0e3;
+  --color-primary-700: #c19ada;
+  --color-primary-800: #af80ce;
+  --color-primary-900: #9c65c1;
+  --color-primary-1000: #8850b0;
+  --color-primary-1100: #743c9f;
+  --color-primary-1200: #632e8d;
+  --color-primary-1300: #56267f;
+  --color-primary-1400: #4a1e75;
+  --color-primary-1500: #5e2374;  /* Brand Violet */
+  --color-primary-1600: #541f67;
+  --color-primary-1700: #491a59;
+  --color-primary-1800: #3e164b;
+  --color-primary-1900: #333333;
+  --color-primary-2000: #290e30;
+  --color-primary-2100: #200b24;
+  --color-primary-2200: #170819;
+  --color-primary-2300: #100611;
+  --color-primary-2400: #0a040b;
+  --color-primary-2500: #070309;
+  --color-primary-2600: #050206;
+  --color-primary-2700: #030103;
+
+
+  --color-secondary-0: #fff;
+  --color-secondary-100:  #fdf7f7;
+  --color-secondary-200:  #fbecec;
+  --color-secondary-300:  #f7dcdc;
+  --color-secondary-400:  #f3c9c9;
+  --color-secondary-500:  #efb3b3;
+  --color-secondary-600:  #e89999;
+  --color-secondary-700:  #df7d7d;
+  --color-secondary-800:  #d65e5f;
+  --color-secondary-900:  #cc4142;
+  --color-secondary-1000: #c32c2d;
+  --color-secondary-1100: #b8272c;  /* Brand Red */
+  --color-secondary-1200: #a62229;
+  --color-secondary-1300: #941e25;
+  --color-secondary-1400: #801a21;
+  --color-secondary-1500: #6d161d;
+  --color-secondary-1600: #5b1219;
+  --color-secondary-1700: #4a0e14;
+  --color-secondary-1800: #3a0b10;
+  --color-secondary-1900: #2c080c;
+  --color-secondary-2000: #200608;
+  --color-secondary-2100: #160406;
+  --color-secondary-2200: #0e0304;
+  --color-secondary-2300: #090203;
+  --color-secondary-2400: #060202;
+  --color-secondary-2500: #040101;
+  --color-secondary-2600: #020101;
+  --color-secondary-2700: #000000;
+
+
+
+  --color-primary-muted-0: #fff;
+  --color-primary-muted-100: #f8f8f8;
+  --color-primary-muted-200: #f0f3f5;
+  --color-primary-muted-300: #e7ecf1;
+  --color-primary-muted-400: #dde5ed;
+  --color-primary-muted-500: #d1dde8;
+  --color-primary-muted-600: #c4d4e3;
+  --color-primary-muted-700: #b5c9dc;
+  --color-primary-muted-800: #a3bdd4;
+  --color-primary-muted-900: #8baec9;
+  --color-primary-muted-1000: #5693b4;
+  --color-primary-muted-1100: #3a7fa6;
+  --color-primary-muted-1200: #296e9b;
+  --color-primary-muted-1300: #1a5a90;
+  --color-primary-muted-1400: #0c4282;
+  --color-primary-muted-1500: #0c3b71;
+  --color-primary-muted-1600: #0b3361;
+  --color-primary-muted-1700: #0a2c52;
+  --color-primary-muted-1800: #0a2544;
+  --color-primary-muted-1900: #092038;
+  --color-primary-muted-2000: #081a2e;
+  --color-primary-muted-2100: #081524;
+  --color-primary-muted-2200: #07111c;
+  --color-primary-muted-2300: #070d15;
+  --color-primary-muted-2400: #05090e;
+  --color-primary-muted-2500: #040609;
+  --color-primary-muted-2600: #030304;
+  --color-primary-muted-2700: #020202;
+  --color-secondary-muted-0: #fff;
+  --color-secondary-muted-100: #f8f8f8;
+  --color-secondary-muted-200: #ebecf2;
+  --color-secondary-muted-300: #dde0ec;
+  --color-secondary-muted-400: #cfd4e5;
+  --color-secondary-muted-500: #c1c8de;
+  --color-secondary-muted-600: #b4bbd7;
+  --color-secondary-muted-700: #a6aecf;
+  --color-secondary-muted-800: #98a0c7;
+  --color-secondary-muted-900: #8a92be;
+  --color-secondary-muted-1000: #7c83b5;
+  --color-secondary-muted-1100: #6d72ab;
+  --color-secondary-muted-1200: #5e60a0;
+  --color-secondary-muted-1300: #4c4791;
+  --color-secondary-muted-1400: #23086a;
+  --color-secondary-muted-1500: #240f65;
+  --color-secondary-muted-1600: #261660;
+  --color-secondary-muted-1700: #261b5a;
+  --color-secondary-muted-1800: #241c52;
+  --color-secondary-muted-1900: #211c4a;
+  --color-secondary-muted-2000: #1e1a40;
+  --color-secondary-muted-2100: #1a1837;
+  --color-secondary-muted-2200: #15152d;
+  --color-secondary-muted-2300: #111123;
+  --color-secondary-muted-2400: #0c0d1a;
+  --color-secondary-muted-2500: #080910;
+  --color-secondary-muted-2600: #040508;
+  --color-secondary-muted-2700: #020202;
+
+  --font-display: 'Alexandria';
+  --font-body: 'Poppins';
+}
