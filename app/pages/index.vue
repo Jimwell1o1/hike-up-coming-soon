@@ -37,18 +37,18 @@
         </svg>
     </div>
 
-    <div class="mx-auto max-w-7xl px-6 pt-18 lg:pt-20 pb-12 lg:px-8 py-20 flex flex-col">
-        <div class="mx-auto flex max-w-7xl flex-col items-center">
-        <div class="z-10 mx-auto flex max-w-7xl flex-col items-center gap-6 text-center">
+    <div class="mx-auto max-w-7xl px-6 pt-18 lg:pt-20 pb-12 lg:px-8 py-20 flex flex-col h-full">
+        <div class="mx-auto flex max-w-7xl flex-col items-center h-full">
+        <div class="z-10 mx-auto flex max-w-7xl flex-col items-center gap-6 text-center h-full">
             <div class="flex flex-col items-center">
-                <div class="flex text-[10px] lg:text-sm text-gray-200 flex-row w-fit items-center px-6 rounded-full mx-10  gap-1 mb-7 py-1.5 bg-gradient-to-r from-hu-violet via-[#972e92] to-hu-blue" data-aos="fade-up" data-aos-delay="200">
+                <div data-aos="fade-up" data-aos-delay="300" class="flex text-[10px] lg:text-sm text-gray-200 flex-row w-fit items-center px-6 rounded-full mx-10  gap-1 mb-7 py-1.5 bg-gradient-to-r from-hu-violet via-[#972e92] to-hu-blue">
                     <span class="font-body font-medium">Are you ready?</span>
                 </div>
-                <div class="w-15 lg:w-18 my-2">
+                <div data-aos="fade-up" data-aos-delay="500" class="w-15 lg:w-18 my-2">
                     <img src="/img/hikeup_logo_single.png" alt="Hike Up">
                 </div>
-                <h1 class="mt-14 md:my-10 mb-6 font-display font-medium text-secondary-1200 tracking-tight text-5xl sm:text-7xl lg:text-[90px] text-balance text-center"><span class="text-hu-violet">Hike Up Marketing</span> is Coming Soon!</h1>
-                <p class="mt-8 md:mt-4 font-body font-normal text-gray-600 text-lg md:text-xl text-balance mx-auto">Our website is launching soon. We help businesses grow with digital marketing and IT solutions.</p>
+                <h1 data-aos="fade-up" data-aos-delay="700" class="mt-14 md:my-10 mb-6 font-display font-medium text-secondary-1200 tracking-tight text-5xl sm:text-7xl lg:text-[90px] text-balance text-center"><span class="text-hu-violet gradient-text animate-text-gradient">Hike Up Marketing</span> is Coming Soon!</h1>
+                <p data-aos="zoom-in" data-aos-delay="900" class="mt-8 md:mt-4 font-body font-normal text-gray-600 text-lg md:text-xl text-balance mx-auto">Our website is launching soon. We help businesses grow with digital marketing and IT solutions.</p>
             </div>
 
             <!-- <div class="mt-6 grid grid-cols-1 gap-y-2 gap-4 w-full md:w-80">
@@ -61,7 +61,7 @@
                 </button>
             </div> -->
 
-            <div class="mt-30 md:mt-10 lg:mt-8 flex flex-col items-center gap-4">
+            <div data-aos="fade-in" data-aos-delay="1200" class="mt-20 lg:mt-0 flex flex-col justify-items-end items-center gap-4">
                 <p class="font-display text-primary-1500 font-medium text-lg text-center">Visit Our Socials</p>
                 <div class="flex flex-wrap items-center justify-center gap-5 opacity-90">
                     <!-- Facebook -->
@@ -84,7 +84,7 @@
 
                     <!-- LinkedIn -->
                     <NuxtLink
-                    to="https://linkedin.com/in/hikeupmarketing"
+                    to="https://linkedin.com/in/hike-up-marketing"
                     target="_blank"
                     class="text-primary-1200 hover:text-blue-500 transition-colors duration-300"
                     >

@@ -43,5 +43,10 @@ export default defineNuxtConfig({
   },
   css: [
     '~/assets/main.css',
+    'aos/dist/aos.css'
   ],
+  modules: ['nuxt-aos'],
+  plugins: [
+    { src: '~/plugins/aos.client.js', mode: 'client' }
+  ]
 })
