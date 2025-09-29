@@ -61,7 +61,7 @@
                 </button>
             </div> -->
 
-            <div data-aos="fade-in" data-aos-delay="1200" class="mt-20 lg:mt-0 flex flex-col justify-items-end items-center gap-4">
+            <div data-aos="fade-in" data-aos-delay="1200" class="mt-16 lg:mt-0 flex flex-col justify-items-end items-center gap-4">
                 <p class="font-display text-primary-1500 font-medium text-lg text-center">Visit Our Socials</p>
                 <div class="flex flex-wrap items-center justify-center gap-5 opacity-90">
                     <!-- Facebook -->
@@ -84,7 +84,7 @@
 
                     <!-- LinkedIn -->
                     <NuxtLink
-                    to="https://linkedin.com/in/hike-up-marketing"
+                    to="https://www.linkedin.com/company/hike-up-marketing"
                     target="_blank"
                     class="text-primary-1200 hover:text-blue-500 transition-colors duration-300"
                     >
