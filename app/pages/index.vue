@@ -37,7 +37,7 @@
         </svg>
     </div>
 
-    <div class="mx-auto max-w-7xl px-6 pt-18 lg:pt-20 pb-12 lg:px-8 py-20 flex flex-col h-full">
+    <div class="mx-auto max-w-7xl px-6 pt-18 lg:pt-16 pb-12 lg:px-8 flex flex-col h-full">
         <div class="mx-auto flex max-w-7xl flex-col items-center h-full">
         <div class="z-10 mx-auto flex max-w-7xl flex-col items-center gap-6 text-center h-full">
             <div class="flex flex-col items-center">
